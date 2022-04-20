@@ -19,3 +19,5 @@
     <%= render 'microposts/microposts', microposts: @microposts %>
   </div>
 </div>
+
+<p><%= link_to "お気に入り記事", likes_user_path(@user) %></p>
